@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Memory game</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<meta charset="utf-8">
+</head>
+<body>
+<div id="container">
+
+<div class="button">
+      <a class="lbutton">Começar novo jogo</a>
+</div> 
+<div id="tabuleiro"></div>
+<div class="clr"></div>
+ <div id="record"></div>
+<script>
+var app = { };
+    app.getComponente = function (nome){
+      if( !app[nome]) {
+        app[nome] = { $ctrl:{} };
+      }
+      return app[nome];
+    };
+    
+    </script>
+</script>
+<script src="js/jquery.js"></script>
+<script src="js/mgame.js"></script>
+
+</div>
+
+
+</body>
+</html>
